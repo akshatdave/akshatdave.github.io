@@ -1,0 +1,723 @@
+{
+    "nest": {
+        "title": "NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Tianyi Zhang*": "https://www.linkedin.com/in/tianyi-zhang-583b93128/",
+            "Aaron Young*": "http://aaronyoung.site/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
+            "Wolfgang Heidrich": "https://vccimaging.org/People/heidriw/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "",
+            "arXiv",
+            "2024"
+        ],
+        "links": {
+            "Paper": "https://arxiv.org/abs/2406.10212"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "NeuralFields",
+            "Polarization",
+            "StressAnalysis"
+        ],
+        "highlight": true
+    },  
+    "mirror_mapping": {
+        "title": "Handheld Mapping of Specular Surfaces using Consumer-Grade Flash LiDAR",
+        "authors": {
+            "Tsung-Han (Hank) Lin": "https://www.media.mit.edu/people/hanklin/overview/",
+            "Connor Henley": "https://www.media.mit.edu/people/co24401/overview/",
+            "Siddharth Somasundaram":"https://sidsoma.github.io/",
+            "Akshat Dave":"yuzhe",
+            "Moshe Laifenfeld":"https://www.linkedin.com/in/moshe-laifenfeld-613409/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "IEEE International Conference on Computational Photography",
+            "(ICCP)",
+            "2024 (to appear)"
+        ],
+        "links": {
+            "Paper": ""
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "AR-VR",
+            "Time-of-Flight"
+        ],
+        "highlight": false
+    },  
+    "eventspad": {
+        "title": "Event Cameras Meet SPADs for High-Speed, Low-Bandwidth Imaging",
+        "authors": {
+            "Manasi  Muglikar": "https://manasi94.github.io/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Edoardo Charbon": "https://people.epfl.ch/edoardo.charbon?lang=en",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
+            "Davide Scaramuzza": "https://rpg.ifi.uzh.ch/people_scaramuzza.html"
+        },
+        "venue": [
+            "",
+            "arXiv",
+            "2024"
+        ],
+        "links": {
+            "Paper": "https://arxiv.org/pdf/2404.11511"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SinglePhotonImaging"
+        ],
+        "highlight": false
+    },  
+    "decentnerfs": {
+        "title": "DecentNeRFs: Decentralized Neural Radiance Fields from Crowdsourced Images",
+        "authors": {
+            "Zaid Tasneem": "https://zaidtas.github.io",
+            "Akshat Dave": "yuzhe",
+            "Abhishek Singh": "https://www.linkedin.com/in/tremblerz",
+            "Kushagra Tiwary": "https://www.media.mit.edu/people/ktiwary/overview/",
+            "Praneeth Vepakomma": "https://praneeth.mit.edu/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "European Conference on Computer Vision",
+            "ECCV",
+            "2024 (to appear)"
+        ],
+        "links": {
+            "Project Page": "https://zaidtas.github.io/decentnerfs/",
+            "Paper": "https://arxiv.org/abs/2403.13199",
+            "Video": "https://www.youtube.com/watch?v=oWKgDI-AJNQ",
+            "Talk": "https://www.youtube.com/watch?v=slFwlW_348E"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "NeuralFields",
+            "AR-VR"
+        ],
+        "highlight": false
+    },   
+    "sundial": {
+        "title": "SUNDIAL: 3D Satellite Understanding through Direct Ambient and Complex Lighting Decomposition",
+        "authors": {
+            "Nikhil Behari": "https://www.media.mit.edu/people/nbehari/overview/",
+            "Akshat Dave": "yuzhe",
+            "Kushagra Tiwary": "https://www.media.mit.edu/people/ktiwary/overview/",
+            "William Yang": "",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "EARTHVISION",
+            "CVPR Workshop",
+            "2024"
+        ],
+        "links": {
+            "Paper": "https://openaccess.thecvf.com/content/CVPR2024W/EarthVision/html/Behari_SUNDIAL_3D_Satellite_Understanding_through_Direct_Ambient_and_Complex_Lighting_CVPRW_2024_paper.html",
+            "Project Page": "https://nikhilbehari.github.io/sundial/"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "NeuralFields",
+            "Physics-basedML"
+        ],
+        "highlight": false
+    },
+    "fadjournal": {
+        "title": "First-Arrival Differential Counting for SPAD Array Design",
+        "authors": {
+            "Mel White": "https://meljwhite.com/",
+            "Tianyi Zhang": "https://www.linkedin.com/in/tianyi-zhang-583b93128/",
+            "Akshat Dave": "yuzhe",
+            "Shahaboddin Ghajari": "https://www.researchgate.net/profile/Shahaboddin-Ghajari",
+            "Alyosha C Molnar": "https://www.ece.cornell.edu/faculty-directory/alyosha-christopher-molnar",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "",
+            "Sensors",
+            "2023"
+        ],
+        "links": {
+            "Paper": "https://www.mdpi.com/1424-8220/23/23/9445"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "jpg"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SinglePhotonImaging"
+        ],
+        "highlight": false
+    },
+    "phd_thesis":{
+        "title": "Seeing the Invisible: Next-generation vision systems leveraging polarization and time-of-light of light",
+        "authors": {
+            "Akshat Dave": "yuzhe"
+        },
+        "venue":[
+            "",
+            "Ph.D. Thesis",
+            "2023"
+        ],
+        "links":{
+            "Thesis": "https://repository.rice.edu/items/5fa085db-1948-4995-bd94-8f954cfaca86",
+            "Doctoral Consortium Abstract": "https://dl.acm.org/doi/10.1145/3623053.3623374"
+        },
+        "thumbnail":{
+            "before_type": "png",
+            "after_type": "png"
+        },
+        "award":{
+            "award title": "Ralph Budd Thesis Award",
+            "award desc": ", SIGGRAPH Asia 2023 Doctoral Consoritum",
+            "award link": "https://engineering.rice.edu/student-awards-2023-24"
+        },
+        "topics":[
+        ],
+        "highlight": true
+    },
+    "pol_sig_course":{
+        "title": "Polarization-based visual computing",
+        "authors": {
+            "Seung-Hwan Baek": "https://sites.google.com/view/shbaek/member",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
+            "Jinwei Ye": "https://cs.gmu.edu/~jinweiye/",
+            "Akshat Dave": "yuzhe",
+            "Achuta Kadambi": "https://www.ee.ucla.edu/achuta-kadambi/",
+            "Huaijin (George) Chen": "https://hgchen.com/"
+        },
+        "venue":[
+            "",
+            "ACM SIGGRAPH Course",
+            "2023"
+        ],
+        "links":{
+            "Recording": "https://dl.acm.org/doi/abs/10.1145/3587423.3595544"
+        },
+        "thumbnail":{
+            "before_type": "svg",
+            "after_type": "png"
+        },
+        "award":{
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics":[
+            "Polarization"
+        ],
+        "highlight": false
+    },
+    "orca": {
+        "title": "ORCa: Glossy Objects as Radiance Field Cameras",
+        "authors": {
+            "Kushagra Tiwary*": "https://www.media.mit.edu/people/ktiwary/overview/",
+            "Akshat Dave*": "yuzhe",
+            "Nikhil Behari": "https://www.media.mit.edu/people/nbehari/overview/",
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "IEEE/CVF Computer Vision and Pattern Recognition",
+            "(CVPR)",
+            "2023"
+        ],
+        "links": {
+            "Project Page": "https://ktiwary2.github.io/objectsascam",
+            "Paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Tiwary_ORCa_Glossy_Objects_As_Radiance-Field_Cameras_CVPR_2023_paper.html",
+            "Code": "https://github.com/ktiwary2/orca",
+            "Talk": "https://www.youtube.com/watch?v=jloeVqQh9zE",
+            "MIT News": "https://news.mit.edu/2023/how-machine-learning-models-can-amplify-inequities-medical-diagnosis-treatment-0817"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "NeuralFields",
+            "AR-VR",
+            "SeeingAroundCorners",
+            "Physics-basedML"
+        ],
+        "highlight": true
+    },
+    "twonlos": {
+        "title": "Role of Transients in Two-Bounce Non-Line-of-Sight Imaging",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Connor Henley": "https://www.media.mit.edu/people/co24401/overview/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "IEEE/CVF Computer Vision and Pattern Recognition",
+            "(CVPR)",
+            "2023"
+        ],
+        "links": {
+            "Project Page": "https://sidsoma.github.io/transient-2b-nlos/",
+            "Paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Somasundaram_Role_of_Transients_in_Two-Bounce_Non-Line-of-Sight_Imaging_CVPR_2023_paper.html",
+            "Talk": "https://www.youtube.com/watch?v=9K_oV_QY-z0"
+        },
+        "thumbnail": {
+            "before_type": "PNG",
+            "after_type": "PNG"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "Time-of-Flight",
+            "SeeingAroundCorners"
+        ],
+        "highlight": false
+    },
+    "disappear": {
+        "title": "Snapshot Polarimetric Diffuse-Specular Separation",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Yannick Hold-Geoffroy": "https://yannickhold.com/",
+            "Milos Hasan": "http://www.miloshasan.net/",
+            "Kalyan Sunkavalli": "http://www.kalyans.org/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "",
+            "Optics Express",
+            "2022"
+        ],
+        "links": {
+            "Paper": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-19-34239&id=498988",
+            "Video": "https://opticapublishing.figshare.com/articles/media/supplementary_video_mp4/19625661"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "AR-VR",
+            "Polarization",
+            "Physics-basedML"
+        ],
+        "highlight": false
+    },
+    "pandora": {
+        "title": "PANDORA: Polarization-Aided Neural Decomposition Of Radiance",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Yongyi Zhao": "https://yongyizhao.com/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "European Conference on Computer Vision",
+            "(ECCV)",
+            "2022"
+        ],
+        "links": {
+            "Project Page": "https://akshatdave.github.io/pandora/index.html",
+            "Paper": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/8029_ECCV_2022_paper.php",
+            "Code": "https://github.com/akshatdave/pandora",
+            "Dataset": "https://drive.google.com/file/d/1FvOi_2wfSUnASHulQdBhHQcQCxOuJ8zz/view",
+            "Talk": "https://www.youtube.com/watch?v=otpob9keMhY"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "AR-VR",
+            "Polarization",
+            "NeuralFields",
+            "Physics-basedML"
+        ],
+        "highlight": true
+    },
+    "fadlidar": {
+        "title": "First Arrival Differential LiDAR",
+        "authors": {
+            "Tianyi Zhang": "https://www.linkedin.com/in/tianyi-zhang-583b93128/",
+            "Mel White*": "https://meljwhite.com/",
+            "Akshat Dave*": "yuzhe",
+            "Shahaboddin Ghajari": "https://www.researchgate.net/profile/Shahaboddin-Ghajari",
+            "Ankit Raghuram": "https://sites.google.com/view/araghuram/",
+            "Alyosha C Molnar": "https://www.ece.cornell.edu/faculty-directory/alyosha-christopher-molnar",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "IEEE International Conference on Computational Photography",
+            "(ICCP)",
+            "2022"
+        ],
+        "links": {
+            "Preprint": "https://drive.google.com/file/d/1epUdXqmRhH30_dQfFjLpuRALqQjcOmPu/view"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "AR-VR",
+            "Time-of-Flight",
+            "SinglePhotonImaging"
+        ],
+        "highlight": true
+    },
+    "dspad": {
+        "title": "A Differential SPAD Array Architecture in 0.18 um CMOS for HDR Imaging",
+        "authors": {
+            "Mel White": "https://meljwhite.com/",
+            "Shahaboddin Ghajari": "https://www.researchgate.net/profile/Shahaboddin-Ghajari",
+            "Tianyi Zhang": "https://www.linkedin.com/in/tianyi-zhang-583b93128/",
+            "Akshat Dave": "yuzhe",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Alyosha C Molnar": "https://www.ece.cornell.edu/faculty-directory/alyosha-christopher-molnar"
+        },
+        "venue": [
+            "IEEE International Symposium on Circuits and Systems",
+            "(ISCAS)",
+            "2022"
+        ],
+        "links": {
+            "Preprint": "https://drive.google.com/file/d/1AKuK_IfPIcxPUi10DYWNTEqs2q0hb_A0/view"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SinglePhotonImaging"
+        ],
+        "highlight": false
+    },
+    "deepir": {
+        "title": "DeepIR: A Deep Network-based Image Processing Framework for Thermal Images",
+        "authors": {
+            "Vishwanath Saragadam": "https://vishwa91.github.io/index.html",
+            "Akshat Dave": "yuzhe",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Richard Baraniuk": "https://richb.rice.edu/"
+        },
+        "venue": [
+            "IEEE/CVF International Conference on Computer Vision Workshop",
+            "(ICCV Workshop)",
+            "2021"
+        ],
+        "links": {
+            "PDF": "https://arxiv.org/pdf/2108.07973.pdf",
+            "Code": "https://github.com/vishwa91/DeepIR"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "DeepImagePriors"
+        ],
+        "highlight": false
+    },
+    "fnlos": {
+        "title": "Foveated Non-line-of-sight Imaging",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Muralidhar Madabhushi Balaji": "https://www.linkedin.com/in/muralidhar-madabhushi-8894a8a3",
+            "Prasanna Rangarajan": "https://s2.smu.edu/~prangara/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Marc P Christensen": "https://www.linkedin.com/in/marcpchristensen"
+        },
+        "venue": [
+            "Conference on Computational Optical Sensing and Imaging",
+            "(COSI)",
+            "2020"
+        ],
+        "links": {
+            "Link": "https://opg.optica.org/abstract.cfm?uri=COSI-2020-CTh5C.6",
+            "Preprint": "data/COSI_Foveated_IndirectImaging.pdf"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "Best Paper Award",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SeeingAroundCorners",
+            "Time-of-Flight"
+        ],
+        "highlight": true
+    },
+    "convnlos": {
+        "title": "Convolutional Approximations to the General Non-Line-of-Sight Imaging Operator",
+        "authors": {
+            "Byeongjoo Ahn": "https://byeongjooahn.github.io",
+            "Akshat Dave": "yuzhe",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/",
+            "Ioannis Gkioulekas": "https://www.cs.cmu.edu/~igkioule/",
+            "Aswin C. Sankaranarayanan": "https://users.ece.cmu.edu/~saswin/"
+        },
+        "venue": [
+            "IEEE/CVF International Conference on Computer Vision",
+            "(ICCV)",
+            "2019"
+        ],
+        "links": {
+            "Project Page": "https://imaging.cs.cmu.edu/conv_nlos/",
+            "Preprint": "https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv.pdf",
+            "Supplement": "https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv_supp.pdf",
+            "Code": "https://github.com/ByeongjooAhn/conv_nlos"
+        },
+        "thumbnail": {
+            "before_type": "gif",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "Oral Presentation",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SeeingAroundCorners",
+            "Time-of-Flight"
+        ],
+        "highlight": true
+    },
+    "snlos": {
+        "title": "SNLOS: Non-line-of-sight Scanning through Temporal Focusing",
+        "authors": {
+            "Adithya Pediredla*": "https://sites.google.com/view/adithyapediredla/",
+            "Akshat Dave*": "yuzhe",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
+        },
+        "venue": [
+            "IEEE International Conference on Computational Photography",
+            "(ICCP)",
+            "2019"
+        ],
+        "links": {
+            "Preprint": "https://drive.google.com/file/d/19RGkkKi2Ilf9lzqD8NGsfV9A5TJdEeBF/view?usp=sharing"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SeeingAroundCorners",
+            "Time-of-Flight"
+        ],
+        "highlight": true
+    },
+    "dpp": {
+        "title": "Solving Inverse Computational Imaging Problems Using Deep Pixel-Level Prior",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Anil Kumar Vadathya": "https://www.linkedin.com/in/akv462",
+            "Ramana Subramanyam": "https://nl.linkedin.com/in/ramanasubramanyam",
+            "Rahul Baburajan": "https://nl.linkedin.com/in/rahul-edachali",
+            "Kaushik Mitra": "https://www.ee.iitm.ac.in/kmitra/"
+        },
+        "venue": [
+            "IEEE Transactions on Computational Imaging",
+            "(TCI)",
+            "2018"
+        ],
+        "links": {
+            "Preprint": "https://arxiv.org/pdf/1802.09850.pdf",
+            "Code": "https://github.com/adaveiitm/deep-pixel-level-prior"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "DeepImagePriors"
+        ],
+        "highlight": true
+    },
+    "silc": {
+        "title": "SILC: Smoother Imitation with Lipschitz Costs",
+        "authors": {
+            "Sapana Chaudhary*": "https://sapanachaudhary.github.io/",
+            "Akshat Dave*": "yuzhe",
+            "Balaraman Ravindran": "http://www.cse.iitm.ac.in/~ravi/"
+        },
+        "venue": [
+            "International Conference on Machine Learning Workshop",
+            "(ICML Workshop)",
+            "2018"
+        ],
+        "links": {
+            "PDF": "https://drive.google.com/file/d/1La8gb6JMD8RVbTdK2NZnUWM-eKIaIK0p/view"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+        ],
+        "highlight": false
+    },
+    "ride": {
+        "title": "Compressive Image Recovery Using Recurrent Generative Model",
+        "authors": {
+            "Akshat Dave": "yuzhe",
+            "Anil Kumar Vadathya": "https://www.linkedin.com/in/akv462",
+            "Kaushik Mitra": "https://www.ee.iitm.ac.in/kmitra/"
+        },
+        "venue": [
+            "IEEE International Conference on Image Processing",
+            "(ICIP)",
+            "2017"
+        ],
+        "links": {
+            "Project Page": "https://adaveiitm.github.io/research.html",
+            "Preprint": "https://arxiv.org/pdf/1612.04229.pdf",
+            "Code": "https://github.com/adaveiitm/ride"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "gif"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "DeepImagePriors"
+        ],
+        "highlight": false
+    },
+    "iitmsat":{
+        "title":"IITMSAT Communications System - A LeanSat Design Approach",
+        "authors":{
+            "Akshay Gulati": "https://apsccsat.com/akshay-gulati/",
+            "Shubham Chavan": "https://in.linkedin.com/in/shubham-chavan-28389488",
+            "Akshat Dave": "yuzhe",
+            "et al.": "https://scholar.google.com/citations?user=l7cdPHIAAAAJ&hl=en&oi=ao"
+        },
+        "venue":[
+            "IAA Conference on University Satellites Missions & CubeSat Workshop",
+            "(USMCW)",
+            "2015"
+        ],
+        "links":{
+            "Paper": "https://adaveiitm.github.io/iitmsat_paper.pdf"
+        },
+        "thumbnail": {
+            "before_type": "jpg",
+            "after_type": "jpg"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+        ],
+        "highlight": false
+
+    }
+
+}

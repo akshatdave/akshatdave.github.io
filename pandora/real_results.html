@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>PANDORA: Real Results</title>
+
+    <!-- mirror: F0%9F%AA%9E&lt -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/codemirror.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/video_comparison.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="header" style="text-align: center; margin: auto;">
+        <div class="row" id="title-row" style="max-width: 100%; margin: 0 auto; display: inline-block">
+            <h2 class="col-md-12 text-center" id="title">
+                <b>PANDORA</b>: Polarization-Aided <br> Neural Decomposition Of Radiance<br>
+                <small>
+                    Real Results
+                </small>
+            </h2>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="text-justify">
+                    Here we demonstrate the inverse rendering capabilities of PANDORA on real datasets. Please view this html preferably in Chrome browser. The slider can be moved by hovering mouse over the video. Any video can be paused by clicking on the video. The video can then be resumed by refreshing the page.
+                </div>
+			</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Comparison with PhySG on Captured Scenes
+                </h3>
+                <div class="text-justify">
+                    PANDORA reconstructs more detailed surface geometry compared to state-of-the-art inverse rendering technique PhySG, such as, on the nose and the bird. PANDORA also accurately models the broad specular highlights on this relatively rough surface, such as on the figurine's hat. PANDORA also outputs a plausible illumination estimation that captures the major light sources. 
+                </div>
+                <table width="100%">
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Surface Normals</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Net Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Diffuse Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Specular Radiance Field</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="gnome1" loop playsinline autoPlay muted src="video/gnome_vs_physg_normal.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="gnome1Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="gnome2" loop playsinline autoPlay muted src="video/gnome_vs_physg_mixed.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="gnome2Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="gnome3" loop playsinline autoPlay muted src="video/gnome_vs_physg_rgb.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="gnome3Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="gnome4" loop playsinline autoPlay muted src="video/gnome_vs_physg_specular.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="gnome4Merge"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Estimated Illumination</h4>
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Ground Truth Illumination</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="gnome5" loop playsinline autoPlay muted  onplay="resizeAndPlay(this)" src="video/gnome_vs_physg_envmap.mp4"></video>
+                                <canvas height=0 class="videoMerge" id="gnome5Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                                   <image src="img/owl_gt.png" class="img-responsive" alt="overview" width="100%" style="max-height: 512px;"></image> 
+                        </td>
+                    </tr>
+                </table>
+			</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Role of polarization cues
+                </h3>
+                <div class="text-justify">
+                    Here compare our performance with the same model trained only on intensity images and without any polarimetric cues. Polarimetric cues aide us in performing more accurate diffuse-specular separation and recovers cleaner geometry. The model without polarization has texture artefacts in the normals and the specular, such as on the owl's head and back respectively. Moreover, the model without polarization fails to capture small lights in the incident illumination.
+                </div>
+                <table width="100%">
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Surface Normals</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Net Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Diffuse Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Specular Radiance Field</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="owl1" loop playsinline autoPlay muted src="video/owl_vs_ours_nopol_normal.mp4"  onplay="resizeAndPlay(this)" ></video>
+                                <canvas height=0 class="videoMerge" id="owl1Merge"></canvas>
+                            </div>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="owl2" loop playsinline autoPlay muted src="video/owl_vs_ours_nopol_mixed.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="owl2Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="owl3" loop playsinline autoPlay muted src="video/owl_vs_ours_nopol_rgb.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="owl3Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="owl4" loop playsinline autoPlay muted src="video/owl_vs_ours_nopol_specular.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="owl4Merge"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Estimated Illumination</h4>
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Ground Truth Illumination</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="owl5" loop playsinline autoPlay muted  onplay="resizeAndPlay(this)" src="video/owl_vs_ours_nopol_envmap.mp4"></video>
+                                <canvas height=0 class="videoMerge" id="owl5Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                                   <image src="img/owl_gt.png" class="img-responsive" alt="overview" width="100%" style="max-height: 512px;"></image> 
+                        </td>
+                    </tr>
+                </table>
+			</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Appearance Editing
+                </h3>
+                <div class="text-justify">
+                    PANDORA's radiance decomposition can be used for editing the radiance field such as by changing the color of the diffuse component without affecting the specular highlights or for imparting a metallic appearance to the object.
+                </div>
+                <table width="100%">
+                    <tr>
+                        <td align="center" valign="center" width="33%">
+                            <h4>Original Appearance</h4>
+                        </td>
+                        <td align="center" valign="center" width="33%">
+                            <h4>Changing diffuse color</h4>
+                        </td>
+                        <td align="center" valign="center" width="33%">
+                            <h4>Metallic Apperance</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td align="center" valign="center" width="33%">
+                            <div style="overflow: hidden;">
+                    <video id="owl5" width="100%" playsinline autoplay loop muted style="margin-top: -5%;">
+                        <source src="video/owl_mat_edit_orig.mp4" type="video/mp4" />
+                    </video>
+                        </td>
+                        <td align="center" valign="center" width="33%">
+                            <div style="overflow: hidden;">
+                    <video id="owl5" width="100%" playsinline autoplay loop muted style="margin-top: -5%;">
+                        <source src="video/owl_mat_edit_only_b.mp4" type="video/mp4" />
+                    </video>
+                        </td>
+                        <td align="center" valign="center" width="33%">
+                            <div style="overflow: hidden;">
+                    <video id="owl6" width="100%" playsinline autoplay loop muted style="margin-top: -5%;">
+                        <source src="video/owl_mat_edit_metallic.mp4" type="video/mp4" />
+                    </video>
+                        </td>
+                    </tr>
+                </table>
+			</div>
+        </div>
+    </div>
+
+
+</body></html>

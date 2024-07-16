@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>PANDORA: Rendered Results</title>
+
+    <!-- mirror: F0%9F%AA%9E&lt -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/codemirror.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/video_comparison.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="header" style="text-align: center; margin: auto;">
+        <div class="row" id="title-row" style="max-width: 100%; margin: 0 auto; display: inline-block">
+            <h2 class="col-md-12 text-center" id="title">
+                <b>PANDORA</b>: Polarization-Aided <br> Neural Decomposition Of Radiance<br>
+                <small>
+                    Rendered Results
+                </small>
+            </h2>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="text-justify">
+                    Here we demonstrate the inverse rendering capabilities of PANDORA on rendered datasets. Please view this html preferably in Chrome browser. The slider can be moved by hovering mouse over the video. Any video can be paused by clicking on the video. The video can then be resumed by refreshing the page.
+                </div>
+			</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Comparisons with Ground Truth on Rendered Scenes
+                </h3>
+                <div class="text-justify">
+                    PANDORA performs accurate surface estimation, diffuse-specular radiance field separation and illumination estimation from 45 multi-view polarization images of challenging scenes. For instance, PANDORA correctly models the specular compoent when the bust and its base have different specular roughness and can separate out the highly textured diffuse in the globe from sharp specular highlights.
+                </div>
+                <table width="100%">
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Surface Normals</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Net Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Diffuse Radiance Field</h4>
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <h4>Specular Radiance Field</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="aug1" loop playsinline autoPlay muted src="video/aug_vs_gt_normal.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="aug1Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="aug2" loop playsinline autoPlay muted src="video/aug_vs_gt_mixed.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="aug2Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="aug3" loop playsinline autoPlay muted src="video/aug_vs_gt_rgb.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="aug3Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="aug4" loop playsinline autoPlay muted src="video/aug_vs_gt_specular.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="aug4Merge"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="globe1" loop playsinline autoPlay muted src="video/globe_vs_gt_normal.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="globe1Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="globe2" loop playsinline autoPlay muted src="video/globe_vs_gt_mixed.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="globe2Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="globe3" loop playsinline autoPlay muted src="video/globe_vs_gt_rgb.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="globe3Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="25%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="globe4" loop playsinline autoPlay muted src="video/globe_vs_gt_specular.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="globe4Merge"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Illumination on Bust</h4>
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                            <h4>Illumination on Globe</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="center" width="50%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="aug5" loop playsinline autoPlay muted  onplay="resizeAndPlay(this)" src="video/aug_vs_gt_envmap.mp4"></video>
+                                <canvas height=0 class="videoMerge" id="aug5Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                        <td align="center" valign="center" width="50%">
+                            <div class="video-compare-container" style="width: 100%">
+                                <video class="video" id="globe5" loop playsinline autoPlay muted src="video/globe_vs_gt_envmap.mp4" onplay="resizeAndPlay(this)"></video>
+                                <canvas height=0 class="videoMerge" id="globe5Merge"></canvas>
+                            </div>
+                            
+                        </td>
+                    </tr>
+                </table>
+			</div>
+        </div>
+
+
+
+</body></html>

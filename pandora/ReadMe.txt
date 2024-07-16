@@ -1,0 +1,1 @@
+In video_results.html, we demonstrate the inverse rendering capabilities of PANDORA on rendered and real datasets. Please unzip and view this html preferably in Chrome browser. The slider can be moved by hovering mouse over the video. Any video can be paused by clicking on the video. The video can then be resumed by refreshing the page.

@@ -1,0 +1,588 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Title -->
+  <title>Akshat Dave</title>
+  
+  <meta name="author" content="Akshat Dave">
+  <!-- Required meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>"> -->
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <!-- BIO TABLE -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Akshat Dave</name>
+              </p>
+              <p>I am an Postdoctoral Associate at MIT Media Lab in Camera Culture group led by <a href="https://www.media.mit.edu/people/raskar/overview/"> Prof. Ramesh Raskar </a>. I recently completed my Ph.D. from the <a href="https://computationalimaging.rice.edu">Computational Imaging Lab</a> at Rice University where I was advised by <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Prof. Ashok Veeraraghavan</a>. 
+              </p>
+              <p>
+               My research interests lie at the intersection of vision, graphics, optics and machine learning. I am actively working on co-designing cameras and algorithms that exploit unique properties of light to solve challenging imaging and vision problems. My research includes non-line-of-sight imaging using ultrafast time-of-flight cameras and radiance decomposition using polarization cameras. 
+              </p>
+              <p>
+                I've also worked as a Research Intern at Adobe Research in <a href="http://www.kalyans.org/"> Dr. Kalyan Sunkavalli </a>'s group. I received my Masters and Bachelors from Indian Institute of Technology Madras, where I worked with <a href="https://www.ee.iitm.ac.in/kmitra/">Prof. Kaushik Mitra</a> on solving inverse problems using deep learning. 
+              </p>  
+              <p style="text-align:center">
+                <a href="mailto:adaveiitm@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/Akshat_Resume_Sep_2023.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?hl=en&user=mMnHusUAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/adaveiitm">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/akshatdave/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/AkshatDaveDP.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/AkshatDaveDPCircled.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- PUBLICATIONS TABLE -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+   
+          <!-- orca -->
+          <tr onmouseout="orca_stop()" onmouseover="orca_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='orca_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/orca_after.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/orca_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function orca_start() {
+                  document.getElementById('orca_image').style.opacity = "1";
+                }
+
+                function orca_stop() {
+                  document.getElementById('orca_image').style.opacity = "0";
+                }
+                orca_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ktiwary2.github.io/objectsascam/">
+                <papertitle>ORCa: Glossy Objects As Radiance-Field Cameras</papertitle>
+              </a>
+              <br>
+               <a href="https://www.media.mit.edu/people/ktiwary/overview/">Kushagra Tiwary*</a>, <strong>Akshat Dave*</strong>, <a href="https://www.media.mit.edu/people/nbehari/overview/">Nikhil Behari</a>, <a href="https://tzofi.github.io/">Tzofi Klinghoffer</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.media.mit.edu/people/raskar/overview/">Ramesh Raskar</a>
+              <br>
+              <em>accepted at CVPR</em>, 2023 (*=Equally Contributed)
+              <br>
+              <a href="https://ktiwary2.github.io/objectsascam/">project page</a> /
+              <a href="http://arxiv.org/abs/2212.04531">preprint</a> 
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+          <!-- twonlos -->
+          <tr onmouseout="twonlos_stop()" onmouseover="twonlos_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='twonlos_image'><img src='images/twonlos_after.PNG' width="160" height="160" style="border-style: none"></div>
+                <img src='images/twonlos_before.PNG' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function twonlos_start() {
+                  document.getElementById('twonlos_image').style.opacity = "1";
+                }
+
+                function twonlos_stop() {
+                  document.getElementById('twonlos_image').style.opacity = "0";
+                }
+                twonlos_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Role of Transients in Two-Bounce Non-Line-of-Sight Imaging</papertitle>
+              </a>
+              <br>
+               <a href="https://sidsoma.github.io/">Siddharth Somasundaram</a>, <strong>Akshat Dave</strong>, <a href="https://www.media.mit.edu/people/co24401/overview/">Connor Henley</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.media.mit.edu/people/raskar/overview/">Ramesh Raskar</a>
+              <br>
+              <em>accepted at CVPR</em>, 2023 
+              <br>
+              <!-- <a href="https://ktiwary2.github.io/objectsascam/">project page</a> / -->
+              <a href="https://arxiv.org/abs/2304.01308">preprint</a> 
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+          <!-- disappear -->
+          <tr onmouseout="disappear_stop()" onmouseover="disappear_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='disappear_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/disappear_after.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/disappear_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function disappear_start() {
+                  document.getElementById('disappear_image').style.opacity = "1";
+                }
+
+                function disappear_stop() {
+                  document.getElementById('disappear_image').style.opacity = "0";
+                }
+                disappear_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-19-34239&id=498988">
+                <papertitle>Snapshot Polarimetric Diffuse-Specular Separation</papertitle>
+              </a>
+              <br>
+               <strong>Akshat Dave</strong>, <a href="https://yannickhold.com/">Yannick Hold-Geoffroy</a>, <a href="http://www.miloshasan.net/">Milos Hasan</a>, <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>
+              <br>
+              <em>Optics Express</em>, 2022
+              <br>
+              <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-19-34239&id=498988">paper</a>/
+              <a href="https://opticapublishing.figshare.com/articles/media/supplementary_video_mp4/19625661">video</a> 
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+          <!-- pandora -->
+          <tr onmouseout="pandora_stop()" onmouseover="pandora_start()" bgcolor="#ffffd0" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='pandora_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/pandora_animation.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/pandora_padded_mixed_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function pandora_start() {
+                  document.getElementById('pandora_image').style.opacity = "1";
+                }
+
+                function pandora_stop() {
+                  document.getElementById('pandora_image').style.opacity = "0";
+                }
+                pandora_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="pandora/index.html">
+                <papertitle>PANDORA: Polarization-Aided Neural Decomposition Of Radiance</papertitle>
+              </a>
+              <br>
+               <strong>Akshat Dave</strong>, <a href="https://yongyizhao.com/">Yongyi Zhao</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              <a href="pandora/index.html">project page</a> /
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670531.pdf">paper</a> /
+              <a href="https://github.com/akshatdave/pandora">code</a> /
+              <a href="https://drive.google.com/file/d/1FvOi_2wfSUnASHulQdBhHQcQCxOuJ8zz/view">data</a> /
+              <a href="https://youtu.be/otpob9keMhY">video</a>
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+          <!-- FAD LiDAR -->
+          <tr onmouseout="fadlidar_stop()" onmouseover="fadlidar_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='fadlidar_image'><img src='images/fadlidar_after.png' width="160" height="160" style="border-style: none"></div>
+                <img src='images/fadlidar_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function fadlidar_start() {
+                  document.getElementById('fadlidar_image').style.opacity = "1";
+                }
+
+                function fadlidar_stop() {
+                  document.getElementById('fadlidar_image').style.opacity = "0";
+                }
+                fadlidar_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9887683">
+                <papertitle>First Arrival Differential LiDAR</papertitle>
+              </a>
+              <br>
+               <a href="https://www.linkedin.com/in/tianyi-zhang-583b93128/">Tianyi Zhang</a>, <a href="https://meljwhite.com/">Mel White*</a>, <strong>Akshat Dave*</strong>, <a href="https://www.researchgate.net/profile/Shahaboddin-Ghajari">Shahaboddin Ghajari</a>, <a href="https://sites.google.com/view/araghuram/">Ankit Raghuram</a>, <a href="https://www.ece.cornell.edu/faculty-directory/alyosha-christopher-molnar">Alyosha C Molnar</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>  
+              <br>
+              <em>ICCP</em>, 2022 (*=Equally Contributed)
+              <br>
+              <a href="https://drive.google.com/file/d/1epUdXqmRhH30_dQfFjLpuRALqQjcOmPu/view">preprint</a> 
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+          <!-- DSPAD -->
+          <tr onmouseout="dspad_stop()" onmouseover="dspad_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dspad_image'><img src='images/dspad_after.png' width="160" height="160" style="border-style: none"></div>
+                <img src='images/dspad_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function dspad_start() {
+                  document.getElementById('dspad_image').style.opacity = "1";
+                }
+
+                function dspad_stop() {
+                  document.getElementById('dspad_image').style.opacity = "0";
+                }
+                dspad_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9937558">
+                  <papertitle>A Differential SPAD Array Architecture in 0.18 um CMOS for HDR Imaging</papertitle>
+              </a>
+              <br>
+              <a href="https://meljwhite.com/">Mel White</a>, <a href="https://www.researchgate.net/profile/Shahaboddin-Ghajari">Shahaboddin Ghajari</a>, <a href="https://www.linkedin.com/in/tianyi-zhang-583b93128/">Tianyi Zhang</a>, <strong>Akshat Dave</strong>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.ece.cornell.edu/faculty-directory/alyosha-christopher-molnar">Alyosha C Molnar</a> 
+              <br>
+              <em>ISCAS</em>, 2022
+              <br>
+              <a href="https://drive.google.com/file/d/1AKuK_IfPIcxPUi10DYWNTEqs2q0hb_A0/view">preprint</a> 
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- DeepIR -->
+          <tr onmouseout="deepir_stop()" onmouseover="deepir_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='deepir_image'><img src='images/deepir_after_img.png' width="160" height="160" style="border-style: none"></div>
+                <img src='images/deepir_before_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function deepir_start() {
+                  document.getElementById('deepir_image').style.opacity = "1";
+                }
+
+                function deepir_stop() {
+                  document.getElementById('deepir_image').style.opacity = "0";
+                }
+                deepir_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2108.07973.pdf">
+                <papertitle>DeepIR: A Deep Network-based Image Processing Framework for Thermal Images</papertitle>
+              </a>
+              <br>
+               <a href="https://vishwa91.github.io/index.html">Vishwanath Saragadam</a>, <strong>Akshat Dave</strong>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://richb.rice.edu/">Richard Baraniuk</a> 
+              <br>
+              <em>ICCV Workshop</em>, 2021
+              <br>
+              <a href="https://arxiv.org/pdf/2108.07973.pdf">pdf</a> /
+              <a href="https://github.com/vishwa91/DeepIR">code</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:9zJ53e4xOMsJ:scholar.google.com/&output=citation&scisdr=CgUBVPfzEIzThsYAUps:AAGBfm0AAAAAYjwFSpsQTGmmp5ooPa2i41d15MG2ug1v&scisig=AAGBfm0AAAAAYjwFSi1BVaF38vSEJfJl-JxlEf7bHyB0&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- FNLOS -->
+          <tr onmouseout="fnlos_stop()" onmouseover="fnlos_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='fnlos_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/fnlos_animation.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/fnlos_padded_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function fnlos_start() {
+                  document.getElementById('fnlos_image').style.opacity = "1";
+                }
+
+                function fnlos_stop() {
+                  document.getElementById('fnlos_image').style.opacity = "0";
+                }
+                fnlos_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8747336">
+                <papertitle>Foveated Non-line-of-sight Imaging</papertitle>
+              </a>
+              <br>
+               <strong>Akshat Dave</strong>, <a href="https://www.linkedin.com/in/muralidhar-madabhushi-8894a8a3">Muralidhar Madabhushi Balaji</a>, <a href="https://s2.smu.edu/~prangara/">Prasanna Rangarajan</a>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.linkedin.com/in/marcpchristensen">Marc P Christensen</a>
+              <br>
+              <em>COSI</em>, 2020  &nbsp
+              <font color="red"><strong>(Best Paper Award)</strong></font>
+              <br>
+              <a href="https://opg.optica.org/abstract.cfm?uri=COSI-2020-CTh5C.6">link</a>/
+              <a href="data/COSI_Foveated_IndirectImaging.pdf">preprint</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:nxy3XLs6bkQJ:scholar.google.com/&output=citation&scisdr=CgUBVPfzEIzThsH43Lk:AAGBfm0AAAAAYjv9xLl792L8hgpq4duIjA-8t1IG0sSY&scisig=AAGBfm0AAAAAYjv9xIYZF8lkSQeBLBr_Rlvvt-_RRW1E&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- ConvNLOS -->
+          <tr onmouseout="convnlos_stop()" onmouseover="convnlos_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='convnlos_image'><img src='images/convnlos_animation.gif' width="160" height="160" style="border-style: none"></div>
+                <img src='images/convnlos_before_img.gif' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function convnlos_start() {
+                  document.getElementById('convnlos_image').style.opacity = "1";
+                }
+
+                function convnlos_stop() {
+                  document.getElementById('convnlos_image').style.opacity = "0";
+                }
+                convnlos_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv.pdf" target="_blank">
+                <papertitle>Convolutional Approximations to the General Non-Line-of-Sight Imaging Operator
+                </papertitle>
+              </a>
+              <br>
+              <a href="https://byeongjooahn.github.io" target="_blank"> Byeongjoo Ahn</a>,
+              <strong> Akshat Dave </strong>,
+              <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/" target="_blank">Ashok
+                Veeraraghavan</a>, 
+              <a href="https://www.cs.cmu.edu/~igkioule/" target="_blank">Ioannis Gkioulekas</a>,
+              <a href="https://users.ece.cmu.edu/~saswin/" target="_blank">Aswin C. Sankaranarayanan</a>
+              <br>
+              <em>ICCV</em>, 2019 &nbsp
+              <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://imaging.cs.cmu.edu/conv_nlos/" target="_blank">project page</a>/
+              <a href="https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv.pdf" target="_blank">preprint</a>/
+              <a href="https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv_supp.pdf"
+                target="_blank">supplement</a>/
+              <a href="https://github.com/ByeongjooAhn/conv_nlos">code
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:_VWkYW9UDz8J:scholar.google.com/&output=citation&scisdr=CgXHIMznEIzThsMnNzE:AAGBfm0AAAAAYjkiLzFIPBxsXagMkIlCs9FZRGCxLcpN&scisig=AAGBfm0AAAAAYjkiL77KzvC9lwJ8d3_JQdhKAg7dmlGy&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> -->
+              <p></p>
+              <p>
+                <!-- A computationally efficient technique for NLOS imaging based on a derivation that shows the Gram of the measurement operator is convolutional. -->
+              </p>
+            </td>
+          </tr>
+
+
+          <!-- SNLOS -->
+          <tr onmouseout="snlos_stop()" onmouseover="snlos_start()" bgcolor="#ffffd0" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='snlos_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/snlos_animation.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/snlos_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function snlos_start() {
+                  document.getElementById('snlos_image').style.opacity = "1";
+                }
+
+                function snlos_stop() {
+                  document.getElementById('snlos_image').style.opacity = "0";
+                }
+                snlos_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8747336">
+                <papertitle>SNLOS: Non-line-of-sight Scanning through Temporal Focusing.</papertitle>
+              </a>
+              <br>
+               <a href="https://sites.google.com/view/adithyapediredla/">Adithya Pediredla*</a>, <strong>Akshat Dave*</strong>, <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>
+              <br>
+              <em>ICCP</em>, 2019 (*=Equally Contributed)
+              <br>
+              <a href="https://drive.google.com/file/d/19RGkkKi2Ilf9lzqD8NGsfV9A5TJdEeBF/view?usp=sharing">preprint</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:uQk3VNRyJHkJ:scholar.google.com/&output=citation&scisdr=CgUBVPfzEIzThsHz7RE:AAGBfm0AAAAAYjv29REDJRzWgx_6B2lku8QE_HOvytOx&scisig=AAGBfm0AAAAAYjv29UMZIHcuI0IfC3XVKahtLaCEUEyG&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- DPP -->
+          <tr onmouseout="dpp_stop()" onmouseover="dpp_start()" bgcolor="#ffffd0" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dpp_image'><img src='images/dpp_animation.gif' width="160" height="160" style="border-style: none"></div>
+                <img src='images/dpp_recon_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function dpp_start() {
+                  document.getElementById('dpp_image').style.opacity = "1";
+                }
+
+                function dpp_stop() {
+                  document.getElementById('dpp_image').style.opacity = "0";
+                }
+                dpp_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8543608">
+                <papertitle>Solving Inverse Computational Imaging Problems Using Deep Pixel-Level Prior</papertitle>
+              </a>
+              <br>
+               <strong>Akshat Dave</strong>, <a href="https://www.linkedin.com/in/akv462">Anil Kumar Vadathya</a>, <a href="https://nl.linkedin.com/in/ramanasubramanyam">Ramana Subramanyam</a>, <a href="https://nl.linkedin.com/in/rahul-edachali">Rahul Baburajan</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>
+              <br>
+              <em>TCI</em>, 2018
+              <br>
+              <a href="https://arxiv.org/pdf/1802.09850.pdf">preprint</a> /
+              <a href="https://github.com/adaveiitm/deep-pixel-level-prior">code</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:kdw1sFsNECkJ:scholar.google.com/&output=citation&scisdr=CgXHIMznEIzThsMcHAI:AAGBfm0AAAAAYjkZBAJlvr096DiStBdUVl4OLQz7feQv&scisig=AAGBfm0AAAAAYjkZBC0Buop3uoIC0mNLUW_P9I2NEpU2&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- silc -->
+          <tr onmouseout="silc_stop()" onmouseover="silc_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='silc_image'><video width="160" height="160" muted autoplay loop>
+                <source src='images/silc_after.mp4' type="video/mp4" >
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/silc_before.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function silc_start() {
+                  document.getElementById('silc_image').style.opacity = "1";
+                }
+
+                function silc_stop() {
+                  document.getElementById('silc_image').style.opacity = "0";
+                }
+                silc_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1La8gb6JMD8RVbTdK2NZnUWM-eKIaIK0p/view">
+                <papertitle>SILC: Smoother Imitation with Lipschitz Costs</papertitle>
+              </a>
+              <br>
+               <a href="https://sapanachaudhary.github.io/">Sapana Chaudhary*</a>, <strong>Akshat Dave*</strong>, <a href="http://www.cse.iitm.ac.in/~ravi/">Balaraman Ravindran</a>
+              <br>
+              <em>ICML Workshop</em>, 2018 (*=Equally Contributed)
+              <br>
+              <a href="https://drive.google.com/file/d/1La8gb6JMD8RVbTdK2NZnUWM-eKIaIK0p/view">pdf</a>
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:kdw1sFsNECkJ:scholar.google.com/&output=citation&scisdr=CgXHIMznEIzThsMcHAI:AAGBfm0AAAAAYjkZBAJlvr096DiStBdUVl4OLQz7feQv&scisig=AAGBfm0AAAAAYjkZBC0Buop3uoIC0mNLUW_P9I2NEpU2&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- RIDE-CS -->
+          <tr onmouseout="ride_stop()" onmouseover="ride_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ride_image'><img src='images/ride_animation.gif' width="160" height="160" style="border-style: none"></div>
+                <img src='images/ride_noisy_img.png' width="160" height="160" style="border-style: none">
+              </div>
+              <script type="text/javascript">
+                function ride_start() {
+                  document.getElementById('ride_image').style.opacity = "1";
+                }
+
+                function ride_stop() {
+                  document.getElementById('ride_image').style.opacity = "0";
+                }
+                ride_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8296572">
+                <papertitle>Compressive Image Recovery Using Recurrent Generative Model</papertitle>
+              </a>
+              <br>
+               <strong>Akshat Dave</strong>, <a href="https://www.linkedin.com/in/akv462">Anil Kumar Vadathya</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>
+              <br>
+              <em>ICIP</em>, 2017
+              <br>
+              <a href="https://adaveiitm.github.io/research.html">project page</a> /
+              <a href="https://arxiv.org/pdf/1612.04229.pdf">preprint</a> /
+              <a href="https://github.com/adaveiitm/ride">code</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:-qK-4piY9b4J:scholar.google.com/&output=citation&scisdr=CgXHIMznEIzThsLG0Zg:AAGBfm0AAAAAYjjDyZhs806bfcPUMNXp4cnvtrBH5SAN&scisig=AAGBfm0AAAAAYjjDycx7cPd9Dhsnthvrw8LOzuaoo0VI&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a>  -->
+              <p></p>
+              <p>
+                <!-- ENTER TEXT HERE -->
+              </p>
+            </td>
+          </tr>
+
+          <!-- IITMSAT -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/iitmsat_cropped.jpg" alt="iitmsat" width="160" height="160" style="border-style: none">
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="https://adaveiitm.github.io/iitmsat_paper.pdf">
+                <papertitle>IITMSAT Communications System – A LeanSat Design Approach</papertitle>
+              </a>
+              <br>
+              <a href="https://apsccsat.com/akshay-gulati/">Akshay Gulati</a>, <a href="https://in.linkedin.com/in/shubham-chavan-28389488">Shubham Chavan</a>, <strong>Akshat Dave</strong>, et al.
+              <br>
+              <em>IAA Conference on University Satellites Missions & CubeSat Workshop</em>, 2015
+              <br>
+              <a href="https://adaveiitm.github.io/iitmsat_paper.pdf">paper</a> 
+              <!-- <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:ZydTnOFp1cAJ:scholar.google.com/&output=citation&scisdr=CgUpeYhIEIzThsI7xs4:AAGBfm0AAAAAYjg-3s6GTsPXWcHlfg94a6cKOnvl-fp1&scisig=AAGBfm0AAAAAYjg-3mAGXQvntanRkntsfHLg8ZTb70oN&scisf=4&ct=citation&cd=-1&hl=en">bibtex</a> -->
+            </td>
+          </tr>
+
+        </tbody></table>
+
+				
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+              The source code and design of this website is obtained from <a href="https://jonbarron.info"> Dr. Jon Barron's personal website</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
