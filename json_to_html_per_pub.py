@@ -17,7 +17,7 @@ html_template_video = """
                                 </video>
                             </a>
                         </div>
-                        <img src='images/{paper_id}_before.{before_type}' width="160" height="160" style="border-style: none">
+                        <img src='images/{paper_id}_before.{before_type}' width="160" height="160" style="border-style: none" loading="lazy">
                     </div>
                     <script type="text/javascript">
                         function {paper_id}_start() {{
@@ -58,10 +58,10 @@ html_template_image = """
                     <div class="one">
                         <div class="two" id='{paper_id}_image'>
                             <a href="{link_1}" target="_blank">
-                                <img src='images/{paper_id}_after.{after_type}' width="160" height="160" style="border-style: none">
+                                <img src='images/{paper_id}_after.{after_type}' width="160" height="160" style="border-style: none" loading="lazy">
                             </a>
                         </div>
-                        <img src='images/{paper_id}_before.{before_type}' width="160" height="160" style="border-style: none">
+                        <img src='images/{paper_id}_before.{before_type}' width="160" height="160" style="border-style: none" loading="lazy">
                     </div>
                     <script type="text/javascript">
                         function {paper_id}_start() {{
