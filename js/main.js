@@ -48,7 +48,6 @@ function showPubs(id) {
     document.getElementById('select0').style = 'text-decoration:underline;color:#000000';
     document.getElementById('select1').style = '';
     document.getElementById('select2').style = '';
-    _altmetric_embed_init();
     // Remove the keywords
     Object.keys(topics_name_dict).forEach(topic => {
       const element = document.getElementById(topic);
@@ -97,7 +96,6 @@ function showPubs(id) {
     document.getElementById(id).style = 'text-decoration:underline;color:#000000';
     document.getElementById('select0').style = '';
     document.getElementById('select1').style = '';
-    _altmetric_embed_init();
     Object.keys(topics_name_dict).forEach(topic => {
       if (topic !== id){ // Remove underline from remaining id
       const element = document.getElementById(topic);
