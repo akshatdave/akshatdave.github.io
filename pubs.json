@@ -46,7 +46,7 @@
         "venue": [
             "IEEE International Conference on Computational Photography",
             "(ICCP)",
-            "2024 (to appear)"
+            "2024"
         ],
         "links": {
             "Paper": ""
@@ -279,16 +279,16 @@
             "Paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Tiwary_ORCa_Glossy_Objects_As_Radiance-Field_Cameras_CVPR_2023_paper.html",
             "Code": "https://github.com/ktiwary2/orca",
             "Talk": "https://www.youtube.com/watch?v=jloeVqQh9zE",
-            "MIT News": "https://news.mit.edu/2023/how-machine-learning-models-can-amplify-inequities-medical-diagnosis-treatment-0817"
+            "MIT News": "https://news.mit.edu/2023/using-reflections-shiny-objects-camera-0510"
         },
         "thumbnail": {
             "before_type": "png",
             "after_type": "mp4"
         },
 		"award":{
-			"award title": "",
+			"award title": "MIT Front Page Spotlight",
 			"award desc": "",
-			"award link": ""
+			"award link": "https://web.mit.edu/archive/spotlight/reflection-based-camera/"
 		},
         "topics":[
             "NeuralFields",
