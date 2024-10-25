@@ -10,12 +10,12 @@
             "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
         },
         "venue": [
-            "",
-            "arXiv",
+            "Accepted for ACM Transactions on Graphics",
+            "TOG",
             "2024"
         ],
         "links": {
-            "Paper": "https://arxiv.org/abs/2406.10212"
+            "Preprint": "https://arxiv.org/abs/2406.10212"
         },
         "thumbnail": {
             "before_type": "png",
@@ -49,7 +49,7 @@
             "2024"
         ],
         "links": {
-            "Paper": ""
+            "Paper": "https://lidarmirror.github.io/static/pdfs/ICCP2024_MirrorMapping.pdf"
         },
         "thumbnail": {
             "before_type": "png",
@@ -82,7 +82,7 @@
             "2024"
         ],
         "links": {
-            "Paper": "https://arxiv.org/pdf/2404.11511"
+            "Preprint": "https://arxiv.org/pdf/2404.11511"
         },
         "thumbnail": {
             "before_type": "png",
@@ -112,7 +112,7 @@
         "venue": [
             "European Conference on Computer Vision",
             "ECCV",
-            "2024 (to appear)"
+            "2024"
         ],
         "links": {
             "Project Page": "https://zaidtas.github.io/decentnerfs/",
@@ -419,7 +419,7 @@
             "2022"
         ],
         "links": {
-            "Preprint": "https://drive.google.com/file/d/1epUdXqmRhH30_dQfFjLpuRALqQjcOmPu/view"
+            "Paper": "https://drive.google.com/file/d/1epUdXqmRhH30_dQfFjLpuRALqQjcOmPu/view"
         },
         "thumbnail": {
             "before_type": "png",
@@ -453,7 +453,7 @@
             "2022"
         ],
         "links": {
-            "Preprint": "https://drive.google.com/file/d/1AKuK_IfPIcxPUi10DYWNTEqs2q0hb_A0/view"
+            "Paper": "https://drive.google.com/file/d/1AKuK_IfPIcxPUi10DYWNTEqs2q0hb_A0/view"
         },
         "thumbnail": {
             "before_type": "png",
@@ -516,7 +516,7 @@
         ],
         "links": {
             "Link": "https://opg.optica.org/abstract.cfm?uri=COSI-2020-CTh5C.6",
-            "Preprint": "data/COSI_Foveated_IndirectImaging.pdf"
+            "Paper": "data/COSI_Foveated_IndirectImaging.pdf"
         },
         "thumbnail": {
             "before_type": "png",
@@ -549,7 +549,7 @@
         ],
         "links": {
             "Project Page": "https://imaging.cs.cmu.edu/conv_nlos/",
-            "Preprint": "https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv.pdf",
+            "Paper": "https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv.pdf",
             "Supplement": "https://imaging.cs.cmu.edu/conv_nlos/assets/conv_nlos_iccv_supp.pdf",
             "Code": "https://github.com/ByeongjooAhn/conv_nlos"
         },
@@ -581,7 +581,7 @@
             "2019"
         ],
         "links": {
-            "Preprint": "https://drive.google.com/file/d/19RGkkKi2Ilf9lzqD8NGsfV9A5TJdEeBF/view?usp=sharing"
+            "Paper": "https://drive.google.com/file/d/19RGkkKi2Ilf9lzqD8NGsfV9A5TJdEeBF/view?usp=sharing"
         },
         "thumbnail": {
             "before_type": "png",
@@ -613,7 +613,7 @@
             "2018"
         ],
         "links": {
-            "Preprint": "https://arxiv.org/pdf/1802.09850.pdf",
+            "Paper": "https://arxiv.org/pdf/1802.09850.pdf",
             "Code": "https://github.com/adaveiitm/deep-pixel-level-prior"
         },
         "thumbnail": {
@@ -672,7 +672,7 @@
         ],
         "links": {
             "Project Page": "https://adaveiitm.github.io/research.html",
-            "Preprint": "https://arxiv.org/pdf/1612.04229.pdf",
+            "Paper": "https://arxiv.org/pdf/1612.04229.pdf",
             "Code": "https://github.com/adaveiitm/ride"
         },
         "thumbnail": {

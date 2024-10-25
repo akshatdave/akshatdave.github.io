@@ -101,6 +101,12 @@ ul.intro {
   padding-left: 20px;
 }
 
+ol.intro {
+  font-family: "Segoe UI", "Open Sans", "Roboto", Arial, sans-serif;
+  margin-top: -10px;
+  padding-left: 20px;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     font-family: "Segoe UI", "Open Sans", "Roboto", Arial, sans-serif;
     background-color: #666666;
