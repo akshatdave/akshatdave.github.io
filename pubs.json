@@ -12,7 +12,7 @@
         "venue": [
             "Accepted for ACM Transactions on Graphics",
             "TOG",
-            "2024"
+            "2025"
         ],
         "links": {
             "Preprint": "https://arxiv.org/abs/2406.10212"
@@ -30,6 +30,77 @@
             "NeuralFields",
             "Polarization",
             "StressAnalysis"
+        ],
+        "highlight": true
+    },  
+    "navnlos": {
+        "title": "Enhancing Autonomous Navigation by Imaging Hidden Objects using Single-Photon LiDAR",
+        "authors": {
+            "Aaron Young*":"http://aaronyoung.site/",
+            "Nevindu M. Batagoda*": "https://sbel.wisc.edu/staff/batagoda-nevindu-m/",
+            "Harry Zhang": "https://www.linkedin.com/in/haorui-zhang1018",
+            "Akshat Dave": "yuzhe",
+            "Adithya Pediredla": "https://sites.google.com/view/adithyapediredla/",
+            "Dan Negrut": "https://sbel.wisc.edu/about/people/negrut-dan/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "Accepted for IEEE International Conference on Robotics and Automation",
+            "ICRA",
+            "2025"
+        ],
+        "links": {
+            "Project Page": "https://camera-culture.github.io/nlos-aided-autonomous-navigation/",
+            "Video": "https://youtu.be/0GoUi0wrNMM",
+            "Preprint": "https://arxiv.org/abs/2410.03555"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "SeeingAroundCorners"
+        ],
+        "highlight": true
+    },  
+    "whatifeye": {
+        "title": "What if Eye..? Computationally Recreating Vision Evolution",
+        "authors": {
+            "Kushagra Tiwary": "https://www.kushagratiwary.com/",
+            "Aaron Young": "http://aaronyoung.site/",
+            "Zaid Tasneem":"https://zaidtas.github.io",
+            "Tzofi Klinghoffer":"https://tzofi.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Tomaso Poggio": "https://cbmm.mit.edu/about/people/tomaso-poggio",
+            "Dan-Eric Nilsson": "https://portal.research.lu.se/en/persons/dan-eric-nilsson",
+            "Brian Cheung": "https://briancheung.github.io/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "",
+            "arXiv",
+            "2024"
+        ],
+        "links": {
+            "Project Page": "https://eyes.mit.edu/",
+            "Preprint": "https://arxiv.org/abs/2406.10212"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "DeepImagePriors"
         ],
         "highlight": true
     },  
