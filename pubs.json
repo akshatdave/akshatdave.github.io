@@ -10,12 +10,13 @@
             "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/team/ashok-veeraraghavan/"
         },
         "venue": [
-            "Accepted for ACM Transactions on Graphics",
+            "ACM Transactions on Graphics",
             "TOG",
             "2025"
         ],
         "links": {
-            "Preprint": "https://arxiv.org/abs/2406.10212"
+            "Project Page": "https://akshatdave.github.io/nest/index.html",
+            "Paper": "https://dl.acm.org/doi/10.1145/3723873"
         },
         "thumbnail": {
             "before_type": "png",

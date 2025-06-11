@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners -->
+  <meta name="description" content="NeST: Neural Stress Tensor Tomography reconstructs 3‑D stress tensor fields in transparent solids from polarization images using physics‑guided neural networks."/>
+  <meta property="og:title" content="NeST: Neural Stress Tensor Tomography"/>
+  <meta property="og:description" content="NeST: Neural Stress Tensor Tomography reconstructs 3‑D stress tensor fields in transparent solids from polarization images using physics‑guided neural networks."/>
+  <meta property="og:url" content="https://yourdomain.com/nest"/>
+  <meta property="og:image" content="/static/images/og_banner.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <link rel="canonical" href="https://yourdomain.com/nest"/>
+  <meta name="twitter:title" content="NeST: Neural Stress Tensor Tomography"/>
+  <meta name="twitter:description" content="NeST: Neural Stress Tensor Tomography reconstructs 3‑D stress tensor fields in transparent solids from polarization images using physics‑guided neural networks."/>
+  <meta name="twitter:image" content="/static/images/twitter_banner.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="keywords" content="NeST, Neural Stress Tensor Tomography, photoelasticity, tensor tomography, physics‑informed neural networks, computational imaging"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>NeST: Neural Stress Tensor Tomography</title>
+  <link
+  rel="icon"
+  type="image/svg+xml"
+  href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ctext y='.9em' font-size='90'%3e%F0%9F%AA%B9%3c/text%3e%3c/svg%3e"
+/>
+  <!-- <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico"/> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png"/>
+  <link rel="manifest" href="/static/images/site.webmanifest"/>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="/static/css/bulma.min.css"/>
+  <link rel="stylesheet" href="/static/css/bulma-carousel.min.css"/>
+  <link rel="stylesheet" href="/static/css/bulma-slider.min.css"/>
+  <link rel="stylesheet" href="/static/css/fontawesome.all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"/>
+  <link rel="stylesheet" href="/static/css/index.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="/static/js/fontawesome.all.min.js"></script>
+  <script src="/static/js/bulma-carousel.min.js"></script>
+  <script src="/static/js/bulma-slider.min.js"></script>
+  <script src="/static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+  <!-- Hero / Title block -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a href="https://akshatdave.github.io/" target="_blank">Akshat&nbsp;Dave</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://www.linkedin.com/in/tianyi-zhang-010604b7" target="_blank">Tianyi&nbsp;Zhang</a><sup>*2</sup>,</span>
+              <span class="author-block"><a href="https://aaronyoung.site" target="_blank">Aaron&nbsp;Young</a><sup>*1</sup>,</span>
+              <span class="author-block"><a href="https://www.media.mit.edu/people/raskar" target="_blank">Ramesh&nbsp;Raskar</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://vccimaging.org/People/heidriw/" target="_blank">Wolfgang&nbsp;Heidrich</a><sup>3</sup>,</span>
+              <span class="author-block"><a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/" target="_blank">Ashok&nbsp;Veeraraghavan</a><sup>1</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>MIT&nbsp;Media&nbsp;Lab, <sup>2</sup>Rice&nbsp;University, <sup>3</sup>KAUST<br>ACM&nbsp;Transactions&nbsp;on&nbsp;Graphics&nbsp;(TOG)&nbsp;2025<br>To&nbsp;be&nbsp;presented&nbsp;at&nbsp;SIGGRAPH&nbsp;2025<br></span> 
+              <span class="eql-cntrb"><small><br><sup>*</sup>&nbsp;Indicates equal contribution</small></span>
+            </div>
+
+            <!-- Links -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://dl.acm.org/doi/full/10.1145/3723873" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2406.10212" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2406.10212" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-award"></i></span>
+                    <span>ACM Showcase</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/akshatdave/NeST" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code(Coming Soon)</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/akshatdave/NeST" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Dataset(Coming Soon)</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div> <!-- column -->
+        </div> <!-- columns -->
+      </div> <!-- container -->
+    </div> <!-- hero-body -->
+  </section>
+
+  <!-- Teaser image / overview -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <p>
+          <video class="blend-img-background center-image" style="max-width: 100%; height: auto;" autoplay loop muted playsinline>
+            <source src="/static/videos/teaser.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </p>
+        <br>
+        <p>
+          <strong>TL;DR</strong>: NeST is a physics‑guided machine‑learning framework for inferring <em>full</em> 3‑D stress tensor fields within complex transparent media from sparse polarization measurements. By combining Jones‑calculus‑based forward rendering with a neural volumetric representation, NeST jointly resolves phase unwrapping and tensor tomography to enable non‑destructive 3‑D stress analysis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Photoelasticity enables full-field stress analysis in transparent objects through stress-induced birefringence. Existing techniques are limited to 2D slices and require destructively slicing the object. Recovering the internal 3D stress distribution of the entire object is challenging as it involves solving a tensor tomography problem and handling phase wrapping ambiguities. We introduce NeST, an analysis-by-synthesis approach for reconstructing 3D stress tensor fields as neural implicit representations from polarization measurements. Our key insight is to jointly handle phase unwrapping and tensor tomography using a differentiable forward model based on Jones calculus. Our non-linear model faithfully matches real captures, unlike prior linear approximations. We develop an experimental multi-axis polariscope setup to capture 3D photoelasticity and experimentally demonstrate that NeST reconstructs the internal stress distribution for objects with varying shape and force conditions. Additionally, we showcase novel applications in stress analysis, such as visualizing photoelastic fringes by virtually slicing the object and viewing photoelastic fringes from unseen viewpoints. NeST paves the way for scalable non-destructive 3D photoelastic analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== NEW CONTENT SECTIONS ===================== -->
+  <!-- ======================================================= -->
+  <!-- OVERVIEW -->
+  <!-- ======================================================= -->
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Photoelasticity: Polarization encodes stress</h2>
+            <p>
+              <img src="/static/images/nest_website_overview.png" alt="Fringe patterns vs. simulated stress" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              <!-- Photoelasticity reveals stress‑induced birefringence as colorful fringe patterns, but interpreting these 2‑D observations to infer the underlying 3‑D tensor field is severely ill‑posed. Existing slice‑wise techniques require physically cutting the specimen. NeST bridges this gap by exploiting the differentiability of polarization optics and the expressiveness of neural fields to recover volumetric stress without destructive sectioning. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================================= -->
+  <!-- APPLICATIONS -->
+  <!-- ======================================================= -->
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Applications: Turning cameras into force sensors</h2>
+            <p>
+              <img src="/static/images/nest_website_applications.png" alt="Fringe patterns vs. simulated stress" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              <!-- Photoelasticity reveals stress‑induced birefringence as colorful fringe patterns, but interpreting these 2‑D observations to infer the underlying 3‑D tensor field is severely ill‑posed. Existing slice‑wise techniques require physically cutting the specimen. NeST bridges this gap by exploiting the differentiability of polarization optics and the expressiveness of neural fields to recover volumetric stress without destructive sectioning. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- ======================================================= -->
+  <!-- METHOD -->
+  <!-- ======================================================= -->
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Method: Neural Stress Tensor Tomography</h2>
+            <p>
+              <img src="/static/images/nest_website_method.png" alt="Fringe patterns vs. simulated stress" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              <!-- Photoelasticity reveals stress‑induced birefringence as colorful fringe patterns, but interpreting these 2‑D observations to infer the underlying 3‑D tensor field is severely ill‑posed. Existing slice‑wise techniques require physically cutting the specimen. NeST bridges this gap by exploiting the differentiability of polarization optics and the expressiveness of neural fields to recover volumetric stress without destructive sectioning. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- ======================================================= -->
+  <!-- RESULTS -->
+  <!-- ======================================================= -->
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <div class="content">
+            <h2 class="title is-3">Results</h2>
+            <p>
+              <video class="blend-img-background center-image" style="max-width: 100%; height: auto;" autoplay loop muted playsinline>
+                <source src="/static/videos/results.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+            </p>
+            <p>
+              <!-- Photoelasticity reveals stress‑induced birefringence as colorful fringe patterns, but interpreting these 2‑D observations to infer the underlying 3‑D tensor field is severely ill‑posed. Existing slice‑wise techniques require physically cutting the specimen. NeST bridges this gap by exploiting the differentiability of polarization optics and the expressiveness of neural fields to recover volumetric stress without destructive sectioning. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== END NEW CONTENT SECTIONS ===================== -->
+
+  <!-- BibTeX -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{dave2025nest,
+  title   = {NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity},
+  author  = {Dave, Akshat and Zhang, Tianyi and Young, Aaron and Raskar, Ramesh and Heidrich, Wolfgang and Veeraraghavan, Ashok},
+  journal = {ACM Transactions on Graphics},
+  year    = {2025},
+  volume  = {44},
+  number  = {2},
+  pages   = {1--18},
+  doi     = {10.1145/3723873}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adapted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the web design; we just ask that you link back to this page in the footer. <br>
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative&nbsp;Commons Attribution‑ShareAlike&nbsp;4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
