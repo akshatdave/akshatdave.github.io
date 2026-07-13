@@ -1,4 +1,136 @@
 {
+    "cornar": {
+        "title": "Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling",
+        "authors": {
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Aaron Young": "https://aaronyoung5.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Adithya Pediredla": "https://sites.google.com/view/adithyapediredla/",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "",
+            "Nature",
+            "2026"
+        ],
+        "links": {
+            "Project Page": "https://cornar.media.mit.edu",
+            "Paper": "https://arxiv.org/abs/2605.17865"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "SeeingAroundCorners",
+            "Time-of-Flight",
+            "SinglePhotonImaging"
+        ],
+        "highlight": true
+    },
+    "poppy": {
+        "title": "Poppy: Polarization-Based Plug-and-Play Guidance for Enhancing Surface Normal Estimation",
+        "authors": {
+            "Irene Kim": "https://irnkim.github.io/",
+            "Sai Tanmay Reddy Chakkera": "https://starc52.net/",
+            "Alexandros Graikos": "https://alexgraikos.github.io/",
+            "Dimitris Samaras": "https://www3.cs.stonybrook.edu/~samaras/",
+            "Akshat Dave": "yuzhe"
+        },
+        "venue": [
+            "European Conference on Computer Vision",
+            "(ECCV)",
+            "2026"
+        ],
+        "links": {
+            "Project Page": "https://irnkim.github.io/poppy/",
+            "Paper": "https://drive.google.com/file/d/1QTY9tTs2D0azoSNH0kvMt06ydVuzYZsA/view?usp=drive_link",
+            "Video": "https://youtu.be/LgUQKoo5woI?si=aBiZBaSgbq_io7uS"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "Polarization",
+            "DeepImagePriors",
+            "AR-VR"
+        ],
+        "highlight": true
+    },
+    "taskdriven": {
+        "title": "Task-Driven Implicit Representations for Automated Design of LiDAR Systems",
+        "authors": {
+            "Nikhil Behari": "https://nikhilbehari.com/",
+            "Aaron Young": "https://aaronyoung5.github.io/",
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "IEEE/CVF Computer Vision and Pattern Recognition",
+            "(CVPR)",
+            "2026"
+        ],
+        "links": {
+            "Paper": "https://arxiv.org/abs/2505.22344"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+        "award": {
+            "award title": "Highlight Poster",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "Time-of-Flight",
+            "NeuralFields"
+        ],
+        "highlight": false
+    },
+    "learn3d": {
+        "title": "Learning 3D Reconstruction with Priors in Test Time",
+        "authors": {
+            "Lei Zhou": "",
+            "Haoyu Wu": "",
+            "Akshat Dave": "yuzhe",
+            "Dimitris Samaras": "https://www3.cs.stonybrook.edu/~samaras/"
+        },
+        "venue": [
+            "IEEE/CVF Computer Vision and Pattern Recognition",
+            "(CVPR)",
+            "2026"
+        ],
+        "links": {
+            "Paper": "https://arxiv.org/abs/2604.03878"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "DeepImagePriors",
+            "AR-VR"
+        ],
+        "highlight": false
+    },
     "nest": {
         "title": "NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity",
         "authors": {
@@ -22,22 +154,22 @@
             "before_type": "png",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "NeuralFields",
             "Polarization",
             "StressAnalysis"
         ],
         "highlight": true
-    },  
+    },
     "navnlos": {
         "title": "Enhancing Autonomous Navigation by Imaging Hidden Objects using Single-Photon LiDAR",
         "authors": {
-            "Aaron Young*":"http://aaronyoung.site/",
+            "Aaron Young*": "http://aaronyoung.site/",
             "Nevindu M. Batagoda*": "https://sbel.wisc.edu/staff/batagoda-nevindu-m/",
             "Harry Zhang": "https://www.linkedin.com/in/haorui-zhang1018",
             "Akshat Dave": "yuzhe",
@@ -46,7 +178,7 @@
             "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
         },
         "venue": [
-            "Accepted for IEEE International Conference on Robotics and Automation",
+            "IEEE International Conference on Robotics and Automation",
             "ICRA",
             "2025"
         ],
@@ -59,23 +191,100 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SeeingAroundCorners"
         ],
         "highlight": true
-    },  
+    },
+    "bls3d": {
+        "title": "Blurred LiDAR for Sharper 3D: Robust Handheld 3D Scanning with Diffuse LiDAR and RGB",
+        "authors": {
+            "Nikhil Behari": "https://nikhilbehari.com/",
+            "Aaron Young": "https://aaronyoung5.github.io/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "IEEE/CVF Computer Vision and Pattern Recognition",
+            "(CVPR)",
+            "2025"
+        ],
+        "links": {
+            "Project Page": "https://nikhilbehari.com/bls3d/",
+            "Paper": "https://arxiv.org/abs/2411.19474",
+            "Code": "https://github.com/NikhilBehari/bls3d",
+            "Dataset": "https://drive.google.com/drive/folders/1SovYX8B8pm9hjGmgmNIze04-bpMrajZs?usp=share_link"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "mp4"
+        },
+        "award": {
+            "award title": "Highlight Poster",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "Time-of-Flight",
+            "Physics-basedML",
+            "AR-VR"
+        ],
+        "highlight": false
+    },
+    "sb3d": {
+        "title": "Shoot-Bounce-3D: Single-Shot Occlusion-Aware 3D from Lidar by Decomposing Two-Bounce Light",
+        "authors": {
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Xiaoyu Xiang": "https://xiaoyux1ang.github.io/",
+            "Yuchen Fan": "",
+            "Christian Richardt": "https://richardt.name/",
+            "Akshat Dave": "yuzhe",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
+            "Rakesh Ranjan": ""
+        },
+        "venue": [
+            "ACM SIGGRAPH Asia Conference Papers",
+            "(SIGGRAPH Asia)",
+            "2025"
+        ],
+        "links": {
+            "Project Page": "https://shoot-bounce-3d.github.io/",
+            "Paper": "https://arxiv.org/abs/2512.06080",
+            "Code": "https://github.com/facebookresearch/shoot-bounce-3d",
+            "Dataset": "https://ai.meta.com/datasets/meta-synthetic-environments-lidar-dataset"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "Time-of-Flight",
+            "SinglePhotonImaging",
+            "SeeingAroundCorners",
+            "AR-VR"
+        ],
+        "highlight": false
+    },
     "whatifeye": {
         "title": "What if Eye..? Computationally Recreating Vision Evolution",
         "authors": {
             "Kushagra Tiwary": "https://www.kushagratiwary.com/",
             "Aaron Young": "http://aaronyoung.site/",
-            "Zaid Tasneem":"https://zaidtas.github.io",
-            "Tzofi Klinghoffer":"https://tzofi.github.io/",
+            "Zaid Tasneem": "https://zaidtas.github.io",
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
             "Akshat Dave": "yuzhe",
             "Tomaso Poggio": "https://cbmm.mit.edu/about/people/tomaso-poggio",
             "Dan-Eric Nilsson": "https://portal.research.lu.se/en/persons/dan-eric-nilsson",
@@ -84,8 +293,8 @@
         },
         "venue": [
             "",
-            "arXiv",
-            "2024"
+            "Science Advances",
+            "2025"
         ],
         "links": {
             "Project Page": "https://eyes.mit.edu/",
@@ -95,24 +304,56 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "DeepImagePriors"
         ],
         "highlight": true
-    },  
+    },
+    "eventspad": {
+        "title": "Event Cameras Meet SPADs for High-Speed, Low-Bandwidth Imaging",
+        "authors": {
+            "Manasi  Muglikar": "https://manasi94.github.io/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Edoardo Charbon": "https://people.epfl.ch/edoardo.charbon?lang=en",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
+            "Davide Scaramuzza": "https://rpg.ifi.uzh.ch/people_scaramuzza.html"
+        },
+        "venue": [
+            "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "(TPAMI)",
+            "2025"
+        ],
+        "links": {
+            "Preprint": "https://arxiv.org/pdf/2404.11511"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
+            "SinglePhotonImaging"
+        ],
+        "highlight": false
+    },
     "mirror_mapping": {
         "title": "Handheld Mapping of Specular Surfaces using Consumer-Grade Flash LiDAR",
         "authors": {
             "Tsung-Han (Hank) Lin": "https://www.media.mit.edu/people/hanklin/overview/",
             "Connor Henley": "https://www.media.mit.edu/people/co24401/overview/",
-            "Siddharth Somasundaram":"https://sidsoma.github.io/",
-            "Akshat Dave":"yuzhe",
-            "Moshe Laifenfeld":"https://www.linkedin.com/in/moshe-laifenfeld-613409/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Akshat Dave": "yuzhe",
+            "Moshe Laifenfeld": "https://www.linkedin.com/in/moshe-laifenfeld-613409/",
             "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
         },
         "venue": [
@@ -127,49 +368,17 @@
             "before_type": "png",
             "after_type": "png"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "AR-VR",
             "Time-of-Flight"
         ],
         "highlight": false
-    },  
-    "eventspad": {
-        "title": "Event Cameras Meet SPADs for High-Speed, Low-Bandwidth Imaging",
-        "authors": {
-            "Manasi  Muglikar": "https://manasi94.github.io/",
-            "Siddharth Somasundaram": "https://sidsoma.github.io/",
-            "Akshat Dave": "yuzhe",
-            "Edoardo Charbon": "https://people.epfl.ch/edoardo.charbon?lang=en",
-            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/",
-            "Davide Scaramuzza": "https://rpg.ifi.uzh.ch/people_scaramuzza.html"
-        },
-        "venue": [
-            "",
-            "arXiv",
-            "2024"
-        ],
-        "links": {
-            "Preprint": "https://arxiv.org/pdf/2404.11511"
-        },
-        "thumbnail": {
-            "before_type": "png",
-            "after_type": "png"
-        },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
-            "SinglePhotonImaging"
-        ],
-        "highlight": false
-    },  
+    },
     "decentnerfs": {
         "title": "DecentNeRFs: Decentralized Neural Radiance Fields from Crowdsourced Images",
         "authors": {
@@ -196,17 +405,17 @@
             "before_type": "png",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "NeuralFields",
             "AR-VR"
         ],
         "highlight": false
-    },   
+    },
     "sundial": {
         "title": "SUNDIAL: 3D Satellite Understanding through Direct Ambient and Complex Lighting Decomposition",
         "authors": {
@@ -229,15 +438,49 @@
             "before_type": "png",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "NeuralFields",
             "Physics-basedML"
         ],
+        "highlight": false
+    },
+    "roadmap": {
+        "title": "A Roadmap for Generative Design of Visual Intelligence",
+        "authors": {
+            "Kushagra Tiwary": "https://www.kushagratiwary.com/",
+            "Tzofi Klinghoffer": "https://tzofi.github.io/",
+            "Aaron Young": "https://aaronyoung5.github.io/",
+            "Siddharth Somasundaram": "https://sidsoma.github.io/",
+            "Nikhil Behari": "https://nikhilbehari.com/",
+            "Akshat Dave": "yuzhe",
+            "Brian Cheung": "https://briancheung.github.io/",
+            "Dan-Eric Nilsson": "https://portal.research.lu.se/en/persons/dan-eric-nilsson",
+            "Tomaso Poggio": "https://cbmm.mit.edu/about/people/tomaso-poggio",
+            "Ramesh Raskar": "https://www.media.mit.edu/people/raskar/overview/"
+        },
+        "venue": [
+            "An MIT Exploration of Generative AI",
+            "MIT Press",
+            "2024"
+        ],
+        "links": {
+            "Paper": "https://mit-genai.pubpub.org/pub/bcfcb6lu"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [],
         "highlight": false
     },
     "fadjournal": {
@@ -262,44 +505,43 @@
             "before_type": "png",
             "after_type": "jpg"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SinglePhotonImaging"
         ],
         "highlight": false
     },
-    "phd_thesis":{
+    "phd_thesis": {
         "title": "Seeing the Invisible: Next-generation vision systems leveraging polarization and time-of-light of light",
         "authors": {
             "Akshat Dave": "yuzhe"
         },
-        "venue":[
+        "venue": [
             "",
             "Ph.D. Thesis",
             "2023"
         ],
-        "links":{
+        "links": {
             "Thesis": "https://repository.rice.edu/items/5fa085db-1948-4995-bd94-8f954cfaca86",
             "Doctoral Consortium Abstract": "https://dl.acm.org/doi/10.1145/3623053.3623374"
         },
-        "thumbnail":{
+        "thumbnail": {
             "before_type": "png",
             "after_type": "png"
         },
-        "award":{
+        "award": {
             "award title": "Ralph Budd Thesis Award",
             "award desc": ", SIGGRAPH Asia 2023 Doctoral Consoritum",
             "award link": "https://engineering.rice.edu/student-awards-2023-24"
         },
-        "topics":[
-        ],
-        "highlight": true
+        "topics": [],
+        "highlight": false
     },
-    "pol_sig_course":{
+    "pol_sig_course": {
         "title": "Polarization-based visual computing",
         "authors": {
             "Seung-Hwan Baek": "https://sites.google.com/view/shbaek/member",
@@ -309,24 +551,24 @@
             "Achuta Kadambi": "https://www.ee.ucla.edu/achuta-kadambi/",
             "Huaijin (George) Chen": "https://hgchen.com/"
         },
-        "venue":[
+        "venue": [
             "",
             "ACM SIGGRAPH Course",
             "2023"
         ],
-        "links":{
+        "links": {
             "Recording": "https://dl.acm.org/doi/abs/10.1145/3587423.3595544"
         },
-        "thumbnail":{
+        "thumbnail": {
             "before_type": "svg",
             "after_type": "png"
         },
-        "award":{
+        "award": {
             "award title": "",
             "award desc": "",
             "award link": ""
         },
-        "topics":[
+        "topics": [
             "Polarization"
         ],
         "highlight": false
@@ -357,18 +599,18 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "MIT Front Page Spotlight",
-			"award desc": "",
-			"award link": "https://web.mit.edu/archive/spotlight/reflection-based-camera/"
-		},
-        "topics":[
+        "award": {
+            "award title": "MIT Front Page Spotlight",
+            "award desc": "",
+            "award link": "https://web.mit.edu/archive/spotlight/reflection-based-camera/"
+        },
+        "topics": [
             "NeuralFields",
             "AR-VR",
             "SeeingAroundCorners",
             "Physics-basedML"
         ],
-        "highlight": true
+        "highlight": false
     },
     "twonlos": {
         "title": "Role of Transients in Two-Bounce Non-Line-of-Sight Imaging",
@@ -393,12 +635,12 @@
             "before_type": "PNG",
             "after_type": "PNG"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "Time-of-Flight",
             "SeeingAroundCorners"
         ],
@@ -426,12 +668,12 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "AR-VR",
             "Polarization",
             "Physics-basedML"
@@ -461,18 +703,18 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "AR-VR",
             "Polarization",
             "NeuralFields",
             "Physics-basedML"
         ],
-        "highlight": true
+        "highlight": false
     },
     "fadlidar": {
         "title": "First Arrival Differential LiDAR",
@@ -497,17 +739,17 @@
             "before_type": "png",
             "after_type": "png"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "AR-VR",
             "Time-of-Flight",
             "SinglePhotonImaging"
         ],
-        "highlight": true
+        "highlight": false
     },
     "dspad": {
         "title": "A Differential SPAD Array Architecture in 0.18 um CMOS for HDR Imaging",
@@ -531,12 +773,12 @@
             "before_type": "png",
             "after_type": "png"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SinglePhotonImaging"
         ],
         "highlight": false
@@ -562,12 +804,12 @@
             "before_type": "png",
             "after_type": "png"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "DeepImagePriors"
         ],
         "highlight": false
@@ -594,16 +836,16 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "Best Paper Award",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "Best Paper Award",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SeeingAroundCorners",
             "Time-of-Flight"
         ],
-        "highlight": true
+        "highlight": false
     },
     "convnlos": {
         "title": "Convolutional Approximations to the General Non-Line-of-Sight Imaging Operator",
@@ -629,16 +871,16 @@
             "before_type": "gif",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "Oral Presentation",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "Oral Presentation",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SeeingAroundCorners",
             "Time-of-Flight"
         ],
-        "highlight": true
+        "highlight": false
     },
     "snlos": {
         "title": "SNLOS: Non-line-of-sight Scanning through Temporal Focusing",
@@ -659,16 +901,16 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "SeeingAroundCorners",
             "Time-of-Flight"
         ],
-        "highlight": true
+        "highlight": false
     },
     "dpp": {
         "title": "Solving Inverse Computational Imaging Problems Using Deep Pixel-Level Prior",
@@ -692,15 +934,15 @@
             "before_type": "png",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "DeepImagePriors"
         ],
-        "highlight": true
+        "highlight": false
     },
     "silc": {
         "title": "SILC: Smoother Imitation with Lipschitz Costs",
@@ -721,13 +963,12 @@
             "before_type": "png",
             "after_type": "mp4"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
-        ],
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [],
         "highlight": false
     },
     "ride": {
@@ -751,45 +992,42 @@
             "before_type": "png",
             "after_type": "gif"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [
             "DeepImagePriors"
         ],
         "highlight": false
     },
-    "iitmsat":{
-        "title":"IITMSAT Communications System - A LeanSat Design Approach",
-        "authors":{
+    "iitmsat": {
+        "title": "IITMSAT Communications System - A LeanSat Design Approach",
+        "authors": {
             "Akshay Gulati": "https://apsccsat.com/akshay-gulati/",
             "Shubham Chavan": "https://in.linkedin.com/in/shubham-chavan-28389488",
             "Akshat Dave": "yuzhe",
             "et al.": "https://scholar.google.com/citations?user=l7cdPHIAAAAJ&hl=en&oi=ao"
         },
-        "venue":[
+        "venue": [
             "IAA Conference on University Satellites Missions & CubeSat Workshop",
             "(USMCW)",
             "2015"
         ],
-        "links":{
+        "links": {
             "Paper": "https://adaveiitm.github.io/iitmsat_paper.pdf"
         },
         "thumbnail": {
             "before_type": "jpg",
             "after_type": "jpg"
         },
-		"award":{
-			"award title": "",
-			"award desc": "",
-			"award link": ""
-		},
-        "topics":[
-        ],
+        "award": {
+            "award title": "",
+            "award desc": "",
+            "award link": ""
+        },
+        "topics": [],
         "highlight": false
-
     }
-
 }

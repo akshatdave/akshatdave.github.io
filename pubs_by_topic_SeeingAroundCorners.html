@@ -1,6 +1,53 @@
 <div id=SeeingAroundCorners_pubs><h6>Seeing Around Corners</h6>
 
 
+            <div class="row" onmouseout="cornar_stop()" onmouseover="cornar_start()" >
+                <div class="col-md-2">
+                    <div class="one">
+                        <div class="two" id='cornar_image'>
+                            <a href="https://cornar.media.mit.edu" target="_blank">
+                                <video width="160" height="160" muted autoplay loop>
+                                    <source src='images/cornar_after.mp4' type="video/mp4" >
+                                    Your browser does not support the video tag.
+                                </video>
+                            </a>
+                        </div>
+                        <img src='images/cornar_before.png' width="160" height="160" style="border-style: none" loading="lazy">
+                    </div>
+                    <script type="text/javascript">
+                        function cornar_start() {
+                            document.getElementById('cornar_image').style.opacity = "1";
+                        }
+
+                        function cornar_stop() {
+                            document.getElementById('cornar_image').style.opacity = "0";
+                        }
+                        cornar_stop()
+                    </script>
+                </div>
+                <div class="col-md-9">
+                    <div class="content-wrapper">
+                        <div style="width:100%">
+                            <span class="paper-title"><a target="_blank" href="https://cornar.media.mit.edu"> Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling </a></span><br>
+                            <span class="author"><a target="_blank" href="https://sidsoma.github.io/">Siddharth Somasundaram</a></span>, <span class="author"><a target="_blank" href="https://aaronyoung5.github.io/">Aaron Young</a></span>, <span class="yuzhe">Akshat Dave</span>, <span class="author"><a target="_blank" href="https://sites.google.com/view/adithyapediredla/">Adithya Pediredla</a></span>, <span class="author"><a target="_blank" href="https://www.media.mit.edu/people/raskar/overview/">Ramesh Raskar</a></span>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <font color="black">  <span class="venue">Nature</span>, 2026</font></a><br>
+                                    <font style="font-size: 14px">
+                                        <a target="_blank" href="https://cornar.media.mit.edu">[Project Page]</a>&nbsp;•
+                                        <a target="_blank" href="https://arxiv.org/abs/2605.17865">[Paper]</a>
+                                    </font>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+
             <div class="row" onmouseout="navnlos_stop()" onmouseover="navnlos_start()" >
                 <div class="col-md-2">
                     <div class="one">
@@ -33,11 +80,57 @@
                             <br>
                             <div class="row">
                                 <div class="col-sm-10">
-                                    <font color="black"> Accepted for IEEE International Conference on Robotics and Automation <span class="venue">ICRA</span>, 2025</font></a><br>
+                                    <font color="black"> IEEE International Conference on Robotics and Automation <span class="venue">ICRA</span>, 2025</font></a><br>
                                     <font style="font-size: 14px">
                                         <a target="_blank" href="https://camera-culture.github.io/nlos-aided-autonomous-navigation/">[Project Page]</a>&nbsp;•
                                         <a target="_blank" href="https://youtu.be/0GoUi0wrNMM">[Video]</a>&nbsp;•
                                         <a target="_blank" href="https://arxiv.org/abs/2410.03555">[Preprint]</a>
+                                    </font>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="row" onmouseout="sb3d_stop()" onmouseover="sb3d_start()" >
+                <div class="col-md-2">
+                    <div class="one">
+                        <div class="two" id='sb3d_image'>
+                            <a href="https://shoot-bounce-3d.github.io/" target="_blank">
+                                <img src='images/sb3d_after.png' width="160" height="160" style="border-style: none" loading="lazy">
+                            </a>
+                        </div>
+                        <img src='images/sb3d_before.png' width="160" height="160" style="border-style: none" loading="lazy">
+                    </div>
+                    <script type="text/javascript">
+                        function sb3d_start() {
+                            document.getElementById('sb3d_image').style.opacity = "1";
+                        }
+
+                        function sb3d_stop() {
+                            document.getElementById('sb3d_image').style.opacity = "0";
+                        }
+                        sb3d_stop()
+                    </script>
+                </div>
+                <div class="col-md-9">
+                    <div class="content-wrapper">
+                        <div style="width:100%">
+                            <span class="paper-title"><a target="_blank" href="https://shoot-bounce-3d.github.io/"> Shoot-Bounce-3D: Single-Shot Occlusion-Aware 3D from Lidar by Decomposing Two-Bounce Light </a></span><br>
+                            <span class="author"><a target="_blank" href="https://tzofi.github.io/">Tzofi Klinghoffer</a></span>, <span class="author"><a target="_blank" href="https://sidsoma.github.io/">Siddharth Somasundaram</a></span>, <span class="author"><a target="_blank" href="https://xiaoyux1ang.github.io/">Xiaoyu Xiang</a></span>, <span class="author"><a target="_blank" href="">Yuchen Fan</a></span>, <span class="author"><a target="_blank" href="https://richardt.name/">Christian Richardt</a></span>, <span class="yuzhe">Akshat Dave</span>, <span class="author"><a target="_blank" href="https://www.media.mit.edu/people/raskar/overview/">Ramesh Raskar</a></span>, <span class="author"><a target="_blank" href="">Rakesh Ranjan</a></span>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <font color="black"> ACM SIGGRAPH Asia Conference Papers <span class="venue">(SIGGRAPH Asia)</span>, 2025</font></a><br>
+                                    <font style="font-size: 14px">
+                                        <a target="_blank" href="https://shoot-bounce-3d.github.io/">[Project Page]</a>&nbsp;•
+                                        <a target="_blank" href="https://arxiv.org/abs/2512.06080">[Paper]</a>&nbsp;•
+                                        <a target="_blank" href="https://github.com/facebookresearch/shoot-bounce-3d">[Code]</a>&nbsp;•
+                                        <a target="_blank" href="https://ai.meta.com/datasets/meta-synthetic-environments-lidar-dataset">[Dataset]</a>
                                     </font>
                                     
                                 </div>
